@@ -1,0 +1,11 @@
+.bttn {
+  &-info {
+    border: 0 !important;
+    background: rgb(13, 110, 253);
+    background: linear-gradient(
+      180deg,
+      rgba(13, 110, 253, 1) 0%,
+      rgba(13, 202, 240, 1) 100%
+    );
+  }
+}
