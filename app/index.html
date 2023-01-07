@@ -50,7 +50,7 @@
                 <a class="nav-link" href="#">Browse Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#about-us">About Us</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -296,75 +296,27 @@
 
         <hr class="featurette-divider" />
       </div>
+    </main>
 
-      <!-- FOOTER -->
-      <div class="container">
-        <footer class="py-5">
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="container text-light">
+        <footer class="pt-5">
           <div class="row">
-            <div class="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">Home</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">Features</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">Pricing</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">FAQs</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">About</a>
-                </li>
-              </ul>
+            <div class="col-5">
+              <section id="about-us">
+                <h5>About Us</h5>
+                <p class="lead">
+                  Fusion Drafts offers drafting services on CAD to Architects,
+                  Engineers, General Contractors, and Developers, among other
+                  services. Fusion Drafts leverages an experienced, and
+                  professional drafting team with experience in residential and
+                  commercial establishments.
+                </p>
+              </section>
             </div>
 
-            <div class="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">Home</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">Features</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">Pricing</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">FAQs</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">About</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">Home</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">Features</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">Pricing</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">FAQs</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-muted">About</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-md-5 offset-md-1 mb-3">
+            <div class="col-5 offset-md-1 mb-3">
               <form>
                 <h5>Subscribe to our newsletter</h5>
                 <p>Monthly digest of what's new and exciting from us.</p>
@@ -378,19 +330,24 @@
                     class="form-control"
                     placeholder="Email address"
                   />
-                  <button class="btn btn-primary" type="button">
-                    Subscribe
-                  </button>
                 </div>
+                <button
+                  class="btn btn-primary justify-content-start mt-3"
+                  type="button"
+                >
+                  Subscribe
+                </button>
               </form>
             </div>
           </div>
 
           <div
-            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+            class="d-flex flex-column text-center justify-content-center py-4 my-4 border-top"
           >
-            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-            <ul class="nav col-8 justify-content-center list-unstyled d-flex">
+            <p>&copy; 2023 Fusion Drafts, Inc. All rights reserved.</p>
+            <ul
+              class="justify-content-center align-items-center list-unstyled d-flex mt-3"
+            >
               <li class="ms-3">
                 <a href="https://www.facebook.com"
                   ><img
@@ -419,7 +376,8 @@
           </div>
         </footer>
       </div>
-    </main>
+    </div>
+
     <!-- Bootstrap CDN js -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
