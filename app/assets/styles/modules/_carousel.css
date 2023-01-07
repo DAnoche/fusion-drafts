@@ -1,20 +1,17 @@
 .carousel {
   margin-bottom: 1rem;
-}
-
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
-.carousel-item {
-  height: 32rem;
-}
-
-.carousel {
   &--image {
     height: 560px;
     object-fit: cover;
     filter: brightness(30%);
+  }
+
+  &-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+
+  &-item {
+    height: 32rem;
   }
 }
