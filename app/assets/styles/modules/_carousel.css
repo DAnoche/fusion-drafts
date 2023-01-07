@@ -12,3 +12,11 @@
 .carousel-item {
   height: 32rem;
 }
+
+.carousel {
+  &--image {
+    height: 560px;
+    object-fit: cover;
+    filter: brightness(50%);
+  }
+}
