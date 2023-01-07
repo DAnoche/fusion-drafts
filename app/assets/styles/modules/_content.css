@@ -1,19 +1,29 @@
-.contents .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
+.contents {
+  & .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  p {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+  }
 }
 
-.contents .col-lg-4 p {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
+.contents-image {
+  height: 350px;
+  width: 350px;
+  text-align: center !important ;
 }
 
-.featurette-divider {
-  margin: 5rem 0;
-}
+.featurette {
+  &-divider {
+    margin: 5rem 0;
+  }
 
-.featurette-heading {
-  letter-spacing: -0.05rem;
+  &-heading {
+    letter-spacing: -0.05rem;
+  }
 }
 
 @media (min-width: 40em) {
