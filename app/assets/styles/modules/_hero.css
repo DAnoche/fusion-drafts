@@ -44,6 +44,11 @@
   }
 
   &--contents {
+    position: absolute;
+    padding: 0 5rem;
+    top: 40%;
+    left: 0;
     text-align: center;
+    width: 100%;
   }
 }
