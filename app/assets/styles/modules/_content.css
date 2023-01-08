@@ -26,6 +26,15 @@
   }
 }
 
+@media only screen and (max-width: 425px) {
+  .featurette {
+    &--image {
+      height: 300px;
+      width: 300px;
+    }
+  }
+}
+
 @media (min-width: 40em) {
   .carousel-caption p {
     margin-bottom: 1.25rem;
