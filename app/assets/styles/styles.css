@@ -2,6 +2,7 @@
 @import "./base/_global";
 @import "./base/_variables";
 @import "./modules/_header";
+@import "./modules/_hero";
 @import "./modules/_carousel";
 @import "./modules/_content";
 @import "./modules/_footer";
