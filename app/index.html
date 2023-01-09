@@ -55,7 +55,7 @@
                 <a class="nav-link" href="#">Browse Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about-us">Contact us</a>
+                <a class="nav-link" href="#contact">Contact us</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -298,6 +298,110 @@
 
         <hr class="featurette-divider" />
       </div>
+
+      <!-- Contact Section -->
+      <section id="contact" class="bg-light bg-gradient">
+        <div class="container-lg">
+          <div class="text-center">
+            <h2>Get in Touch</h2>
+            <p class="lead">
+              Questions to ask? Fill out the form to contact us directly...
+            </p>
+          </div>
+
+          <!-- Form -->
+          <div class="row justify-content-center my-5">
+            <div class="col-lg-6">
+              <form>
+                <label for="email" class="form-label">Email address:</label>
+                <div class="mb-4 input-group">
+                  <span class="input-group-text"
+                    ><i class="bi bi-envelope"></i
+                  ></span>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="e.g. fusiondrafts@example.com"
+                  />
+                  <!-- tooltips -->
+                  <span
+                    class="ttips"
+                    data-bs-placement="bottom"
+                    title="Enter and email address we can reply to."
+                  >
+                    <span class="input-group-text bg-white text-muted"
+                      ><i class="bi bi-question-circle"></i
+                    ></span>
+                  </span>
+                </div>
+
+                <label for="name" class="form-label">Name:</label>
+                <div class="mb-4 input-group">
+                  <span class="input-group-text"
+                    ><i class="bi bi-person"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="e.g. Juan Dela Cruz"
+                  />
+                  <!-- tooltips -->
+                  <span
+                    class="ttips"
+                    data-bs-placement="bottom"
+                    title="Type in your given name."
+                  >
+                    <span class="input-group-text bg-white text-muted"
+                      ><i class="bi bi-question-circle"></i></span
+                  ></span>
+                </div>
+
+                <label for="subject" class="form-label"
+                  >What is your question about?</label
+                >
+                <div class="mb-4 input-group">
+                  <span class="input-group-text"
+                    ><i class="bi bi-chat-left-dots"></i
+                  ></span>
+                  <select class="form-select" id="subject">
+                    <option value="pricing" selected>Design query</option>
+                    <option value="tourGuide">Pricing query</option>
+                    <option value="other">Other query</option>
+                  </select>
+                  <!-- tooltips -->
+                  <span
+                    class="ttips"
+                    data-bs-placement="bottom"
+                    title="Select topic you want to ask from the menu."
+                  >
+                    <span class="input-group-text bg-white text-muted"
+                      ><i class="bi bi-question-circle"></i></span
+                  ></span>
+                </div>
+
+                <!-- Floating text area -->
+                <div class="form-floating mb-4 mt-5">
+                  <textarea
+                    id="query"
+                    class="form-control"
+                    style="height: 150px"
+                  ></textarea>
+                  <label for="query" class="form-label">Your query...</label>
+                </div>
+
+                <div class="mb-4 text-center">
+                  <button type="submit" class="btn btn-lg btn-primary">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <hr class="featurette-divider" />
+        </div>
+      </section>
     </main>
 
     <!-- Back to Top -->
