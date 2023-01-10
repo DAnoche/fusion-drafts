@@ -2,4 +2,13 @@
   top: 0;
   background-image: url("assets/images/contact-bg.jpg");
   background-size: cover;
+
+  &--header {
+    color: #fff;
+  }
+
+  &--bg {
+    background-color: rgba(160, 160, 160, 0.514);
+    width: 100%;
+  }
 }
