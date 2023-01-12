@@ -78,7 +78,7 @@
       <div class="container mt-5">
         <div class="row justify-content-center">
           <!-- Accordion-->
-          <div class="accordion--bg col-lg-2 me-lg-3 mb-5 mb-lg-0">
+          <div class="accordion--bg col-lg-2 me-lg-3 mb-5 mb-lg-0 border">
             <div class="accordion" id="accordionPanelsStayOpenExample">
               <!-- Filter 1 -->
               <div class="accordion-item">
@@ -179,6 +179,15 @@
           </div>
           <!-- Images -->
           <div class="col-lg-9 bg-dark">
+            <label for="sort-by">Sort by</label>
+            <select class="d-block w-25 form-control form-select" id="sort-by">
+              <option value="#" selected="selected">Most popular</option>
+              <option value="#">Small to Large</option>
+              <option value="#">Large to small</option>
+              <option value="#">Recently Added</option>
+            </select>
+
+            <div></div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Blanditiis nesciunt perspiciatis omnis velit quia placeat
