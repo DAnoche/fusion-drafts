@@ -1,0 +1,5 @@
+.accordion {
+  &--bg {
+    padding: 0 !important;
+  }
+}

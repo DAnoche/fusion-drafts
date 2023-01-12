@@ -77,99 +77,101 @@
       <!-- Gallery Contents -->
       <div class="container mt-5">
         <div class="row justify-content-center">
-          <!-- Filter -->
-          <div class="col-lg-2 bg-dark me-3">
+          <!-- Accordion-->
+          <div class="accordion--bg col-lg-2 me-lg-3 mb-5 mb-lg-0">
             <div class="accordion" id="accordionPanelsStayOpenExample">
+              <!-- Filter 1 -->
               <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <h2 class="accordion-header" id="panelsStayOpen-heading1">
                   <button
                     class="accordion-button"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseOne"
+                    data-bs-target="#panelsStayOpen-collapse1"
                     aria-expanded="true"
-                    aria-controls="panelsStayOpen-collapseOne"
+                    aria-controls="panelsStayOpen-collapse1"
                   >
-                    Accordion Item #1
+                    BUILDING TYPES
                   </button>
                 </h2>
                 <div
-                  id="panelsStayOpen-collapseOne"
+                  id="panelsStayOpen-collapse1"
                   class="accordion-collapse collapse show"
-                  aria-labelledby="panelsStayOpen-headingOne"
+                  aria-labelledby="panelsStayOpen-heading1"
                 >
                   <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It
-                    is shown by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <input type="checkbox" id="residential" />
+                    <label for="residential"> Residential</label><br />
+                    <input type="checkbox" id="commercial" />
+                    <label for="commercial"> Commercial</label><br />
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <!-- Filter 2 -->
+              <div class="accordion-item mt-2">
+                <h2 class="accordion-header" id="panelsStayOpen-heading2">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseTwo"
+                    data-bs-target="#panelsStayOpen-collapse2"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapse2"
                   >
-                    Accordion Item #2
+                    CLASSIC FEATURES
                   </button>
                 </h2>
                 <div
-                  id="panelsStayOpen-collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="panelsStayOpen-headingTwo"
+                  id="panelsStayOpen-collapse2"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-heading2"
                 >
                   <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong>
-                    It is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <input type="checkbox" id="1broom" />
+                    <label for="1broom"> 1 Bedroom</label><br />
+                    <input type="checkbox" id="2broom" />
+                    <label for="2broom"> 2 Bedrooms</label><br />
+                    <input type="checkbox" id="3broom" />
+                    <label for="3broom"> 3 Bedrooms</label><br />
+                    <input type="checkbox" id="4broom" />
+                    <label for="4broom"> 4 Bedrooms</label><br />
+                    <input type="checkbox" id="5broom" />
+                    <label for="5broom"> 5 Bedrooms</label><br />
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <!-- Filter 3 -->
+              <div class="accordion-item mt-2">
+                <h2 class="accordion-header" id="panelsStayOpen-heading3">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseThree"
-                    aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseThree"
+                    data-bs-target="#panelsStayOpen-collapse3"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapse3"
                   >
-                    Accordion Item #3
+                    STYLES & COLLECTION
                   </button>
                 </h2>
                 <div
-                  id="panelsStayOpen-collapseThree"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="panelsStayOpen-headingThree"
+                  id="panelsStayOpen-collapse3"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-heading3"
                 >
                   <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <input type="checkbox" id="afrme" />
+                    <label for="afrme"> A-Frame</label><br />
+                    <input type="checkbox" id="bnglow" />
+                    <label for="bnglow"> Bungalow</label><br />
+                    <input type="checkbox" id="cntpry" />
+                    <label for="cntpry"> Contemporary</label><br />
+                    <input type="checkbox" id="frmhse" />
+                    <label for="frmhse"> Farm House</label><br />
+                    <input type="checkbox" id="mdrn" />
+                    <label for="mdrn"> Modern</label><br />
+                    <input type="checkbox" id="trdnl" />
+                    <label for="trdnl"> Traditional</label><br />
                   </div>
                 </div>
               </div>
