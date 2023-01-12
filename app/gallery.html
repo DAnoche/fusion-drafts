@@ -178,9 +178,9 @@
             </div>
           </div>
           <!-- Sort Button -->
-          <div class="col-lg-9 bg-dark p-2">
-            <label for="sort-by">Sort by</label>
-            <select class="d-block w-25 form-control form-select" id="sort-by">
+          <div class="col-lg-9 p-2 align">
+            <label class="sortBy float-start me-2" for="sort-by">Sort by</label>
+            <select class="w-25 mb-4 form-control form-select" id="sort-by">
               <option value="#" selected="selected">Most popular</option>
               <option value="#">Small to Large</option>
               <option value="#">Large to small</option>
@@ -326,7 +326,7 @@
                   </div>
                 </div>
               </div>
-
+              <!-- First line -->
               <div class="col">
                 <div class="card shadow-sm">
                   <svg
@@ -465,7 +465,7 @@
                   </div>
                 </div>
               </div>
-
+              <!-- Second line -->
               <div class="col">
                 <div class="card shadow-sm">
                   <svg
@@ -604,6 +604,26 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <!-- Pagination -->
+            <div class="container my-5">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
