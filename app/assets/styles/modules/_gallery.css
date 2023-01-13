@@ -20,3 +20,13 @@
     object-fit: cover;
   }
 }
+
+.accordion-button {
+  background-color: #287af5 !important;
+  color: #fff !important;
+
+  &:not(.collapsed) {
+    background-color: #287af5 !important;
+    color: #fff !important;
+  }
+}
