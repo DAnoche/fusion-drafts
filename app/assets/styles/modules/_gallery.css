@@ -7,3 +7,9 @@
 .sortBy {
   margin-top: 6.5px;
 }
+
+.thumbnail {
+  height: 225px;
+  width: 100%;
+  object-fit: cover;
+}
