@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelectorAll(".ttips").forEach((function(t){new bootstrap.Tooltip(t)}))})();
